@@ -1,5 +1,8 @@
 # Инструкция по проверке/выполнению
-* пункт 2
+
+Для проверки задания достаточно сбилдить проект на устройстве, затем вставить код для каждого пункта в функцию 'int main()'. Результат будет предоставлен в консоли. Если возникают какие-либо несоответствия или возникают другие вопросы, обращайтесь к @killmefasterdear. Мои выводы записаны в отдельный PDF файл в этом же репозитории.
+
+## Пункт 2
 ```c++
 int main() {
     BuildAdjacencyMatrix();
@@ -23,8 +26,7 @@ int main() {
 }
 ```
 
-* пункт 3
-
+## пункт 3
 ```c++
 int main() {
     BuildAdjacencyList();
@@ -34,7 +36,7 @@ int main() {
 }
 ```
 
-* пункт 4
+## пункт 4
 ```c++
 int main() {
     BuildAdjacencyMatrix();
@@ -59,7 +61,7 @@ int main() {
     return 0;
 }
 ```
-* пункт 5
+## пункт 5
 ```c++
 int main() {
     BuildAdjacencyList();
@@ -68,7 +70,7 @@ int main() {
 }
 ```
 
-* пункт 7
+## пункт 7
 ```c++
 int main() {
     BuildAdjacencyList();
@@ -99,7 +101,7 @@ int main() {
 }
 ```
 
-* пункт 8
+## пункт 8
 ```c++
 int main() {
     BuildAdjacencyList();
@@ -128,7 +130,7 @@ int main() {
     return 0;
 }
 ```
-* пункт 9
+## пункт 9
 ```c++
 int main() {
     BuildEdges();
@@ -142,4 +144,34 @@ int main() {
 }
 ```
 
+## пункт 10
+1) код Прюфера
+```c++
+int main() {
+    BuildEdges();
+    BuildAdjacencyList();
+    std::set<std::pair<int, int>> mst = FindMst();
+    std::vector<int> prufer_code = PruferCode(mst);
+    for (auto a: prufer_code) {
+        std::cout << a << ' ';
+    }
+    return 0;
+}
+```
+2) бинарный код 
+```c++
+int main() {
+    BuildEdges();
+    std::vector<int> binaryCode = generateBinaryCode();
+    std::cout << "Binary Code: ";
+    for (int code : binaryCode) {
+        std::cout << code;
+    }
+    std::cout << std::endl;
 
+    return 0;
+}
+
+```
+
+сам по себе код максимально не ООП и не красив, но прост для проверки)
