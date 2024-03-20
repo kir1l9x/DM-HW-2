@@ -611,14 +611,75 @@ std::set<std::pair<int, int>> FindMst() {
     return need_edges;
 }
 
-int main() {
-    BuildEdges();
-    std::set<std::pair<int, int>> mst = FindMst();
-    std::cout << "Amount : " << mst.size() << '\n';
-    for (auto pair: mst) {
-        std::cout << pair.first << ' ' << pair.second << '\n';
+//---------------------------Кодирования---------Пункт 10------------------
+//Код Прюфера
+std::vector<int> PruferCode(std::set<std::pair<int, int>>& mst_edges) {
+    std::map<int, std::vector<int>> adjacency_mst_list;
+    for (const auto edge : mst_edges) {
+        adjacency_mst_list[edge.first].push_back(edge.second);
+        adjacency_mst_list[edge.second].push_back(edge.first);
     }
-    std::cout << "Weight : " << mst_weigt;
-    return 0;
+
+    std::map<int, int> vertex_degrees;
+    for (const auto i : adjacency_mst_list) {
+        vertex_degrees[i.first] = i.second.size();
+    }
+
+    std::vector<int> leaves;
+    for (auto i: vertex_degrees) {
+        if (i.second == 1) {
+            leaves.push_back(i.first);
+        }
+    }
+
+    std::sort(leaves.begin(), leaves.end());
+
+    std::vector<int> prufer_code;
+
+    while (adjacency_mst_list.size() > 2) {
+        int leaf = leaves.front();
+        leaves.erase(leaves.begin());
+
+        int nei = adjacency_mst_list[leaf][0];
+        prufer_code.push_back(nei);
+
+        --vertex_degrees[nei];
+
+        adjacency_mst_list[nei].erase(remove(adjacency_mst_list[nei].begin(), adjacency_mst_list[nei].end(), leaf), adjacency_mst_list[nei].end());
+
+        if (vertex_degrees[nei] == 1) {
+            leaves.push_back(nei);
+            std::sort(leaves.begin(), leaves.end());
+        }
+        adjacency_mst_list.erase(leaf);
+        vertex_degrees.erase(leaf);
+
+    }
+
+    return prufer_code;
 }
 
+//Бинарное кодирование
+std::vector<int> generateBinaryCode() {
+    BuildAdjacencyList(); // Построение списка смежности
+
+    std::vector<int> binaryCode; // Результирующий бинарный код
+    std::set<std::pair<int, int>> mst_edges = FindMst(); // Нахождение минимального остовного дерева
+    std::vector<int> prufer_code = PruferCode(mst_edges); // Генерация кода Прюфера
+
+    // Преобразование кода Прюфера в бинарный код
+    for (int i = 0; i < prufer_code.size(); ++i) {
+        int degree = adjacency_list[prufer_code[i]].size() - 1;
+        for (int j = 0; j < degree; ++j) {
+            binaryCode.push_back(1);
+        }
+        binaryCode.push_back(0);
+    }
+
+    return binaryCode;
+}
+
+int main() {
+
+    return 0;
+}
