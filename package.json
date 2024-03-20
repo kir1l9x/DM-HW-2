@@ -1,0 +1,484 @@
+[
+  {
+    "num": "0",
+    "name": "",
+    "numbers": []
+  },
+  {
+    "num": "1",
+    "name": "Albania",
+    "numbers": [
+      "19",
+      "31",
+      "33",
+      "40"
+    ]
+  },
+  {
+    "num": "2",
+    "name": "Andorra",
+    "numbers": [
+      "16",
+      "43"
+    ]
+  },
+  {
+    "num": "3",
+    "name": "Armenia",
+    "numbers": [
+      "5",
+      "18",
+      "46"
+    ]
+  },
+  {
+    "num": "4",
+    "name": "Austria",
+    "numbers": [
+      "12",
+      "17",
+      "20",
+      "23",
+      "25",
+      "41",
+      "42",
+      "45"
+    ]
+  },
+  {
+    "num": "5",
+    "name": "Azerbaijan",
+    "numbers": [
+      "3",
+      "18",
+      "38",
+      "46"
+    ]
+  },
+  {
+    "num": "6",
+    "name": "Belarus",
+    "numbers": [
+      "24",
+      "26",
+      "35",
+      "38",
+      "47"
+    ]
+  },
+  {
+    "num": "7",
+    "name": "Belgium",
+    "numbers": [
+      "16",
+      "17",
+      "27",
+      "32"
+    ]
+  },
+  {
+    "num": "8",
+    "name": "Bosnia and Herzegovina",
+    "numbers": [
+      "10",
+      "31",
+      "40"
+    ]
+  },
+  {
+    "num": "9",
+    "name": "Bulgaria",
+    "numbers": [
+      "19",
+      "33",
+      "37",
+      "40",
+      "46"
+    ]
+  },
+  {
+    "num": "10",
+    "name": "Croatia",
+    "numbers": [
+      "8",
+      "20",
+      "31",
+      "40",
+      "42"
+    ]
+  },
+  {
+    "num": "11",
+    "name": "Cyprus",
+    "numbers": []
+  },
+  {
+    "num": "12",
+    "name": "Czech Republic",
+    "numbers": [
+      "4",
+      "17",
+      "35",
+      "41"
+    ]
+  },
+  {
+    "num": "13",
+    "name": "Denmark",
+    "numbers": [
+      "17"
+    ]
+  },
+  {
+    "num": "14",
+    "name": "Estonia",
+    "numbers": [
+      "24",
+      "38"
+    ]
+  },
+  {
+    "num": "15",
+    "name": "Finland",
+    "numbers": [
+      "34",
+      "38",
+      "44"
+    ]
+  },
+  {
+    "num": "16",
+    "name": "France",
+    "numbers": [
+      "2",
+      "7",
+      "17",
+      "23",
+      "27",
+      "30",
+      "43",
+      "45"
+    ]
+  },
+  {
+    "num": "17",
+    "name": "Germany",
+    "numbers": [
+      "4",
+      "7",
+      "12",
+      "13",
+      "16",
+      "27",
+      "32",
+      "35",
+      "45"
+    ]
+  },
+  {
+    "num": "18",
+    "name": "Georgia",
+    "numbers": [
+      "3",
+      "5",
+      "38",
+      "46"
+    ]
+  },
+  {
+    "num": "19",
+    "name": "Greece",
+    "numbers": [
+      "1",
+      "9",
+      "33",
+      "46"
+    ]
+  },
+  {
+    "num": "20",
+    "name": "Hungary",
+    "numbers": [
+      "4",
+      "10",
+      "37",
+      "40",
+      "41",
+      "42",
+      "47"
+    ]
+  },
+  {
+    "num": "21",
+    "name": "Iceland",
+    "numbers": []
+  },
+  {
+    "num": "22",
+    "name": "Republic of Ireland",
+    "numbers": [
+      "48"
+    ]
+  },
+  {
+    "num": "23",
+    "name": "Italy",
+    "numbers": [
+      "4",
+      "16",
+      "39",
+      "42",
+      "45",
+      "49"
+    ]
+  },
+  {
+    "num": "24",
+    "name": "Latvia",
+    "numbers": [
+      "6",
+      "14",
+      "26",
+      "38"
+    ]
+  },
+  {
+    "num": "25",
+    "name": "Liechtenstein",
+    "numbers": [
+      "4",
+      "45"
+    ]
+  },
+  {
+    "num": "26",
+    "name": "Lithuania",
+    "numbers": [
+      "6",
+      "24",
+      "35",
+      "38"
+    ]
+  },
+  {
+    "num": "27",
+    "name": "Luxembourg",
+    "numbers": [
+      "7",
+      "16",
+      "17"
+    ]
+  },
+  {
+    "num": "28",
+    "name": "Malta",
+    "numbers": []
+  },
+  {
+    "num": "29",
+    "name": "Moldova",
+    "numbers": [
+      "37",
+      "47"
+    ]
+  },
+  {
+    "num": "30",
+    "name": "Monaco",
+    "numbers": [
+      "16"
+    ]
+  },
+  {
+    "num": "31",
+    "name": "Montenegro",
+    "numbers": [
+      "1",
+      "8",
+      "10",
+      "40"
+    ]
+  },
+  {
+    "num": "32",
+    "name": "Netherlands",
+    "numbers": [
+      "7",
+      "17"
+    ]
+  },
+  {
+    "num": "33",
+    "name": "North Macedonia",
+    "numbers": [
+      "1",
+      "9",
+      "19",
+      "40"
+    ]
+  },
+  {
+    "num": "34",
+    "name": "Norway",
+    "numbers": [
+      "15",
+      "38",
+      "44"
+    ]
+  },
+  {
+    "num": "35",
+    "name": "Poland",
+    "numbers": [
+      "6",
+      "12",
+      "17",
+      "26",
+      "38",
+      "41",
+      "47"
+    ]
+  },
+  {
+    "num": "36",
+    "name": "Portugal",
+    "numbers": [
+      "43"
+    ]
+  },
+  {
+    "num": "37",
+    "name": "Romania",
+    "numbers": [
+      "9",
+      "20",
+      "29",
+      "40",
+      "47"
+    ]
+  },
+  {
+    "num": "38",
+    "name": "Russia",
+    "numbers": [
+      "5",
+      "6",
+      "14",
+      "15",
+      "18",
+      "24",
+      "26",
+      "34",
+      "35",
+      "47"
+    ]
+  },
+  {
+    "num": "39",
+    "name": "San Marino",
+    "numbers": [
+      "23"
+    ]
+  },
+  {
+    "num": "40",
+    "name": "Serbia",
+    "numbers": [
+      "1",
+      "8",
+      "9",
+      "10",
+      "20",
+      "31",
+      "33",
+      "37"
+    ]
+  },
+  {
+    "num": "41",
+    "name": "Slovakia",
+    "numbers": [
+      "4",
+      "12",
+      "20",
+      "35",
+      "47"
+    ]
+  },
+  {
+    "num": "42",
+    "name": "Slovenia",
+    "numbers": [
+      "4",
+      "10",
+      "20",
+      "23"
+    ]
+  },
+  {
+    "num": "43",
+    "name": "Spain",
+    "numbers": [
+      "2",
+      "16",
+      "36"
+    ]
+  },
+  {
+    "num": "44",
+    "name": "Sweden",
+    "numbers": [
+      "15",
+      "34"
+    ]
+  },
+  {
+    "num": "45",
+    "name": "Switzerland",
+    "numbers": [
+      "4",
+      "16",
+      "17",
+      "23",
+      "25"
+    ]
+  },
+  {
+    "num": "46",
+    "name": "Turkey",
+    "numbers": [
+      "3",
+      "5",
+      "9",
+      "18",
+      "19"
+    ]
+  },
+  {
+    "num": "47",
+    "name": "Ukraine",
+    "numbers": [
+      "6",
+      "20",
+      "29",
+      "35",
+      "37",
+      "38",
+      "41"
+    ]
+  },
+  {
+    "num": "48",
+    "name": "United Kingdom",
+    "numbers": [
+      "22"
+    ]
+  },
+  {
+    "num": "49",
+    "name": "Vatican City",
+    "numbers": [
+      "23"
+    ]
+  }
+]
